@@ -51,7 +51,7 @@ The logged visualizations will be saved in test_results/images. The format is le
 
 ### Evaluation
 
-For quantitative evaluations, please refer to the folder evaluation. We provide quantitative evaluation matrix for each individual policy. For details, please refer to our paper. Run the following commands to evaluate the performance for each individual policy.
+For quantitative evaluations, please refer to the folder evaluation. We provide quantitative evaluation matrix for each individual policy. For details, please refer to our paper. Run the following commands to evaluate the performance for each individual policy. Please remember to copy the test_results folder generated from training step under /evaluation directory.
 ```
 cd evaluation
 python3 straight.py
